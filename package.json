@@ -1,0 +1,17 @@
+{
+  "name": "oxc-2464",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "oxlint-without-wildcard": "oxlint -D=all --ignore-pattern=a.js --fix a.js",
+    "oxlint-with-wildcard": "oxlint -D=all --ignore-pattern=**/*.js --fix src/a.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "oxlint": "^0.2.9"
+  }
+}
